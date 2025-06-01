@@ -9,7 +9,8 @@ which were modified (create/update/mark deleted) in the DB since the last run - 
 export default async (req: Request) => {
 	const host = process.env.DEPLOY_URL || process.env.URL;
 	if (!host) {
-		console.log('No DEPLOY_URL/URL set, exiting.');
+		console.log('No https://github.com/kennethwieandt/astro-turso-storefront.git
+     cd astro-turso-storefront, exiting.');
 	}
 
 	// Create a short-lived token for the API call, based on the shared secret
